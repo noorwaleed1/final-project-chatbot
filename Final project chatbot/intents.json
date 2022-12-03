@@ -1,0 +1,64 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you to what our company sells", "i can help you with any problem you're having", "Offering support to contact our team"],
+         "context": [""]
+        },
+        {"tag": "products",
+         "patterns": ["what products do you sell?", "how to reach a specific section?", "what products are available at the moment?"],
+         "responses": ["you can check our main page to know the available products","you can find all the desired sections from our main page "],
+         "context": [""]
+        },
+        {"tag": "prices",
+         "patterns": ["what are the best price products and affordable at the same time?", "what is your price range?"],
+         "responses": ["all our products are nearly the same price range.","our price range lists from 70$ to 200$ according to the item."],
+         "context": [""]
+        },
+        {"tag": "purchase",
+         "patterns": ["can you purchase me a special order?" ,"how to purchase an order?" ],
+         "responses": ["i can request a special order for you. ","you can simply add the items you like to the cart and purchase an order and i can help with that."],
+         "context": ["purchase_order"]
+        },
+        {"tag": "purchase_order",
+         "patterns": [],
+         "responses": ["confirm order for the customer"],
+         "context": [""]
+        },
+        {"tag": "delivery time",
+         "patterns": ["how long does it take for my order to arrive?"," how many days the order arrives?" ],
+         "responses": ["the order arrives within 3-5 working days"],
+         "context": [""]
+        },
+        {"tag": "our products",
+         "patterns": ["what do you sell?","what items do you offer?"],
+         "responses": ["you can find the instruction paper inside every item you purchase ","if something went wrong you can message the customer help through this number and they could help you :088644466"],
+         "context": [""]
+        },
+         
+        {"tag": "details about the items",
+         "patterns": ["how to use your items?"],
+         "responses": ["you can find the instruction paper inside every item you purchase ","if something went wrong you can message the customer help through this number and they could help you :088644466"],
+         "context": [""]
+        }
+   ]
+}
